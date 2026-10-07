@@ -1,0 +1,222 @@
+{
+  "assumptions": {
+    "contractMW": 10,
+    "obligationRatio": 0.1,
+    "hours": 2,
+    "generationHours": 1250,
+    "greenPrice": 4.8,
+    "gridPrice": 3.5,
+    "growth": 0.05,
+    "gridGrowth": 0,
+    "capexPerMWh": 15480000,
+    "subsidyPerMWh": 5000000,
+    "efficiency": 0.9,
+    "outputRatio": 0.9,
+    "cycles": 250,
+    "summerShare": 0.42,
+    "summerPeak": 9.39,
+    "summerOff": 2.53,
+    "nonPeak": 5.47,
+    "nonOff": 2.32,
+    "maintenanceRatio": 0.01,
+    "degradation": 0.02,
+    "replacementYear": 11,
+    "replacementRatio": 0.2,
+    "years": 15
+  },
+  "projection": {
+    "capacityMWh": 2.0,
+    "powerKW": 1000.0,
+    "greenKwh": 1250000.0,
+    "capex": 30960000.0,
+    "subsidy": 10000000.0,
+    "netCapex": 20960000.0,
+    "arbitrageYear1": 1998280.0,
+    "rows": [
+      {
+        "year": 0,
+        "greenPrice": null,
+        "gridPrice": null,
+        "greenAnnual": 0,
+        "greenCumulative": 0,
+        "storageAnnual": 20960000.0,
+        "storageCumulative": 20960000.0,
+        "difference": -20960000.0
+      },
+      {
+        "year": 1,
+        "greenPrice": 4.8,
+        "gridPrice": 3.5,
+        "greenAnnual": 1624999.9999999998,
+        "greenCumulative": 1624999.9999999998,
+        "storageAnnual": -1688680.0,
+        "storageCumulative": 19271320.0,
+        "difference": -17646320.0
+      },
+      {
+        "year": 2,
+        "greenPrice": 5.04,
+        "gridPrice": 3.5,
+        "greenAnnual": 1925000.0,
+        "greenCumulative": 3550000.0,
+        "storageAnnual": -1648714.4,
+        "storageCumulative": 17622605.6,
+        "difference": -14072605.600000001
+      },
+      {
+        "year": 3,
+        "greenPrice": 5.292,
+        "gridPrice": 3.5,
+        "greenAnnual": 2240000.0,
+        "greenCumulative": 5790000.0,
+        "storageAnnual": -1609548.1119999997,
+        "storageCumulative": 16013057.488000002,
+        "difference": -10223057.488000002
+      },
+      {
+        "year": 4,
+        "greenPrice": 5.5566,
+        "gridPrice": 3.5,
+        "greenAnnual": 2570750.0000000005,
+        "greenCumulative": 8360750.0,
+        "storageAnnual": -1571165.14976,
+        "storageCumulative": 14441892.338240001,
+        "difference": -6081142.338240001
+      },
+      {
+        "year": 5,
+        "greenPrice": 5.834430000000001,
+        "gridPrice": 3.5,
+        "greenAnnual": 2918037.5000000014,
+        "greenCumulative": 11278787.500000002,
+        "storageAnnual": -1533549.8467647997,
+        "storageCumulative": 12908342.491475202,
+        "difference": -1629554.9914752003
+      },
+      {
+        "year": 6,
+        "greenPrice": 6.1261515000000015,
+        "gridPrice": 3.5,
+        "greenAnnual": 3282689.375000002,
+        "greenCumulative": 14561476.875000004,
+        "storageAnnual": -1496686.8498295038,
+        "storageCumulative": 11411655.641645698,
+        "difference": 3149821.233354306
+      },
+      {
+        "year": 7,
+        "greenPrice": 6.4324590750000015,
+        "gridPrice": 3.5,
+        "greenAnnual": 3665573.843750002,
+        "greenCumulative": 18227050.718750007,
+        "storageAnnual": -1460561.1128329136,
+        "storageCumulative": 9951094.528812785,
+        "difference": 8275956.189937223
+      },
+      {
+        "year": 8,
+        "greenPrice": 6.754082028750002,
+        "gridPrice": 3.5,
+        "greenAnnual": 4067602.5359375025,
+        "greenCumulative": 22294653.25468751,
+        "storageAnnual": -1425157.8905762555,
+        "storageCumulative": 8525936.63823653,
+        "difference": 13768716.61645098
+      },
+      {
+        "year": 9,
+        "greenPrice": 7.0917861301875025,
+        "gridPrice": 3.5,
+        "greenAnnual": 4489732.662734378,
+        "greenCumulative": 26784385.91742189,
+        "storageAnnual": -1390462.7327647302,
+        "storageCumulative": 7135473.9054718,
+        "difference": 19648912.01195009
+      },
+      {
+        "year": 10,
+        "greenPrice": 7.4463754366968775,
+        "gridPrice": 3.5,
+        "greenAnnual": 4932969.295871097,
+        "greenCumulative": 31717355.213292986,
+        "storageAnnual": -1356461.4781094356,
+        "storageCumulative": 5779012.427362364,
+        "difference": 25938342.785930622
+      },
+      {
+        "year": 11,
+        "greenPrice": 7.8186942085317215,
+        "gridPrice": 3.5,
+        "greenAnnual": 5398367.760664652,
+        "greenCumulative": 37115722.973957635,
+        "storageAnnual": 4868859.751452753,
+        "storageCumulative": 10647872.178815117,
+        "difference": 26467850.795142516
+      },
+      {
+        "year": 12,
+        "greenPrice": 8.209628918958307,
+        "gridPrice": 3.5,
+        "greenAnnual": 5887036.148697884,
+        "greenCumulative": 43002759.12265552,
+        "storageAnnual": -1290485.4435763021,
+        "storageCumulative": 9357386.735238815,
+        "difference": 33645372.387416705
+      },
+      {
+        "year": 13,
+        "greenPrice": 8.620110364906225,
+        "gridPrice": 3.5,
+        "greenAnnual": 6400137.956132781,
+        "greenCumulative": 49402897.078788295,
+        "storageAnnual": -1258483.7347047757,
+        "storageCumulative": 8098903.000534039,
+        "difference": 41303994.07825425
+      },
+      {
+        "year": 14,
+        "greenPrice": 9.051115883151535,
+        "gridPrice": 3.5,
+        "greenAnnual": 6938894.853939419,
+        "greenCumulative": 56341791.93272772,
+        "storageAnnual": -1227122.0600106802,
+        "storageCumulative": 6871780.940523359,
+        "difference": 49470010.99220436
+      },
+      {
+        "year": 15,
+        "greenPrice": 9.503671677309113,
+        "gridPrice": 3.5,
+        "greenAnnual": 7504589.59663639,
+        "greenCumulative": 63846381.52936411,
+        "storageAnnual": -1196387.6188104665,
+        "storageCumulative": 5675393.3217128925,
+        "difference": 58170988.20765121
+      }
+    ],
+    "crossYear": 6
+  },
+  "scenarios": [
+    {
+      "growth": 0,
+      "crossYear": 7,
+      "year15Difference": 18699606.678287104
+    },
+    {
+      "growth": 0.03,
+      "crossYear": 6,
+      "year15Difference": 40293089.99844004
+    },
+    {
+      "growth": 0.05,
+      "crossYear": 6,
+      "year15Difference": 58170988.20765121
+    },
+    {
+      "growth": 0.08,
+      "crossYear": 5,
+      "year15Difference": 91612290.24315736
+    }
+  ],
+  "interpretation": "依使用者確認，以工廠契約容量10MW、4.8元為電力與憑證合計採購價；市電3.5元、漲價與衰減及換修均為情境假設。"
+}
